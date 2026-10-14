@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="470" viewBox="0 0 1400 470" role="img" aria-labelledby="title desc">
+  <title id="title">INDUR V4 — open source micromouse</title>
+  <desc id="desc">A dark engineering banner with a maze motif and three hardware counts: five infrared sensors, two magnetic encoders, and two drive wheels.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#07131f"/><stop offset="1" stop-color="#162638"/></linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#466077" stroke-width="0.6" opacity="0.24"/></pattern>
+  </defs>
+  <rect width="1400" height="470" rx="24" fill="url(#bg)"/>
+  <rect width="1400" height="470" rx="24" fill="url(#grid)"/>
+  <path d="M60 45H118" stroke="#b7f76c" stroke-width="5"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="137" y="51" font-size="17" letter-spacing="4" fill="#b7f76c">OPEN SOURCE MICROMOUSE</text>
+    <text x="60" y="207" font-size="136" font-weight="800" letter-spacing="-6" fill="#f5f8fb">INDUR</text>
+    <rect x="570" y="133" width="95" height="63" rx="13" fill="#b7f76c"/>
+    <text x="591" y="177" font-size="37" font-weight="700" fill="#091522">V4</text>
+    <text x="66" y="261" font-size="27" fill="#cad5df">Five sensors. Two wheels. A maze to solve.</text>
+    <text x="67" y="299" font-size="17" fill="#90a6ba">ESP32-S3  /  Magnetic odometry  /  Flood-fill navigation</text>
+    <g transform="translate(60 341)">
+      <rect width="240" height="84" rx="14" fill="#0b1927" stroke="#30455a"/>
+      <text x="21" y="53" font-size="43" font-weight="700" fill="#b7f76c">05</text>
+      <text x="91" y="40" font-size="15" font-weight="700" fill="#f2f6fa">IR SENSORS</text>
+      <text x="91" y="62" font-size="13" fill="#9cb0c1">L · LD · F · RD · R</text>
+    </g>
+    <g transform="translate(320 341)">
+      <rect width="240" height="84" rx="14" fill="#0b1927" stroke="#30455a"/>
+      <text x="21" y="53" font-size="43" font-weight="700" fill="#76d7ed">02</text>
+      <text x="91" y="40" font-size="15" font-weight="700" fill="#f2f6fa">ENCODERS</text>
+      <text x="91" y="62" font-size="13" fill="#9cb0c1">AS5600 · 12-bit</text>
+    </g>
+    <g transform="translate(580 341)">
+      <rect width="240" height="84" rx="14" fill="#0b1927" stroke="#30455a"/>
+      <text x="21" y="53" font-size="43" font-weight="700" fill="#bcadff">02</text>
+      <text x="91" y="40" font-size="15" font-weight="700" fill="#f2f6fa">DRIVE WHEELS</text>
+      <text x="91" y="62" font-size="13" fill="#9cb0c1">Differential drive</text>
+    </g>
+    <rect x="982" y="38" width="332" height="34" rx="17" fill="#243749"/>
+    <text x="1004" y="61" font-size="13" letter-spacing="2" fill="#c6d6e4">V4 / FIRMWARE RELEASE</text>
+  </g>
+  <g transform="translate(919 105)" fill="none" stroke-linecap="square" stroke-linejoin="round">
+    <path d="M0 0H400V310H0Z M0 62H160V124H240V62H320V0 M80 0V186H160V248H80V310 M240 124V248H320V310 M400 124H320V186H400 M0 248H80 M160 310V248H240 M160 0V62 M320 62H400" stroke="#426178" stroke-width="6"/>
+    <path d="M40 310V218H120V155H200V94H280V32H359V278" stroke="#b7f76c" stroke-width="6"/>
+    <circle cx="40" cy="310" r="8" fill="#b7f76c" stroke="none"/>
+    <circle cx="359" cy="278" r="12" stroke="#b7f76c" stroke-width="4"/>
+  </g>
+</svg>

@@ -11,7 +11,7 @@ void put_text(String t, byte x, byte y, byte col, byte sz) {
 void splash() {
     oled.clearDisplay();
     oled.drawBitmap(48, 5, logo, 32, 32, 1);
-    put_text("MICROMOUSE", 34, 42, 1, 1);
+    put_text("INDUR V4", 40, 42, 1, 1);
     for (byte i = 3; i < 50; i += 2) {
         oled.fillRoundRect(39, 59, i, 4, 2, 1);
         delay(20);

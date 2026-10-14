@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900" role="img" aria-labelledby="title desc">
+  <title id="title">INDUR V4 five-sensor and two-wheel layout</title>
+  <desc id="desc">A functional top view: left, left-diagonal, front, right-diagonal, and right infrared sensors surround the front of the robot. Two driven wheels have independent magnetic encoders. The center contains an OLED, controller, and three buttons. Geometry values are firmware defaults, and the drawing is not to scale.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8" fill="none" stroke="#b7f76c" stroke-width="1.6"/></marker>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#32485c" stroke-width="0.6" opacity="0.25"/></pattern>
+  </defs>
+  <rect width="1400" height="900" rx="24" fill="#0b1826"/>
+  <rect width="1400" height="900" rx="24" fill="url(#grid)"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="46" y="48" font-size="25" font-weight="700" fill="#f3f7fa">INDUR V4 / SENSING + DRIVE GEOMETRY</text>
+    <text x="47" y="77" font-size="15" fill="#93aabe">Functional top view · sensor angles illustrative · not to scale</text>
+    <text x="741" y="158" font-size="16" font-weight="700" letter-spacing="2" fill="#b7f76c">FORWARD</text>
+    <path d="M700 205V125" stroke="#b7f76c" stroke-width="3" marker-end="url(#arrow)"/>
+    <path d="M175 145V743 M1225 145V743" stroke="#355269" stroke-width="8"/>
+    <text x="104" y="129" font-size="14" fill="#68849b">MAZE WALL</text>
+    <text x="1172" y="129" font-size="14" fill="#68849b">MAZE WALL</text>
+    <rect x="490" y="230" width="420" height="530" rx="74" fill="#172c3e" stroke="#7894a8" stroke-width="2"/>
+    <path d="M700 230V760" stroke="#3c566a" stroke-dasharray="7 9"/>
+    <path d="M430 600H970" stroke="#76d7ed" stroke-width="2" stroke-dasharray="6 7"/>
+    <g fill="#111e2b" stroke="#678196" stroke-width="2">
+      <rect x="424" y="495" width="66" height="205" rx="16"/>
+      <rect x="910" y="495" width="66" height="205" rx="16"/>
+    </g>
+    <g stroke="#40586b" stroke-width="3">
+      <path d="M437 514H477M437 535H477M437 556H477M437 577H477M437 598H477M437 619H477M437 640H477M437 661H477M437 682H477"/>
+      <path d="M923 514H963M923 535H963M923 556H963M923 577H963M923 598H963M923 619H963M923 640H963M923 661H963M923 682H963"/>
+    </g>
+    <g fill="none" stroke-width="3" stroke-linecap="round">
+      <path d="M520 460H186" stroke="#76d7ed" stroke-dasharray="7 8"/>
+      <path d="M565 320L402 157" stroke="#bcadff" stroke-dasharray="7 8"/>
+      <path d="M700 260V195" stroke="#b7f76c" stroke-dasharray="7 8"/>
+      <path d="M835 320L998 157" stroke="#bcadff" stroke-dasharray="7 8"/>
+      <path d="M880 460H1214" stroke="#76d7ed" stroke-dasharray="7 8"/>
+    </g>
+    <g stroke-width="3">
+      <circle cx="520" cy="460" r="15" fill="#102a39" stroke="#76d7ed"/>
+      <circle cx="565" cy="320" r="15" fill="#27223e" stroke="#bcadff"/>
+      <circle cx="700" cy="260" r="15" fill="#223425" stroke="#b7f76c"/>
+      <circle cx="835" cy="320" r="15" fill="#27223e" stroke="#bcadff"/>
+      <circle cx="880" cy="460" r="15" fill="#102a39" stroke="#76d7ed"/>
+    </g>
+    <g font-size="20" font-weight="700">
+      <text x="451" y="436" fill="#76d7ed">0 / L</text>
+      <text x="570" y="351" fill="#bcadff">1 / LD</text>
+      <text x="718" y="269" fill="#b7f76c">2 / F</text>
+      <text x="772" y="351" fill="#bcadff">3 / RD</text>
+      <text x="899" y="436" fill="#76d7ed">4 / R</text>
+    </g>
+    <rect x="601" y="390" width="198" height="94" rx="12" fill="#07121e" stroke="#405d72" stroke-width="2"/>
+    <text x="653" y="430" font-size="20" fill="#c1d7e5">OLED</text>
+    <text x="635" y="458" font-size="15" fill="#7e9cb4">128 × 64</text>
+    <rect x="571" y="519" width="258" height="102" rx="15" fill="#263b30" stroke="#b7f76c" stroke-width="2"/>
+    <text x="616" y="559" font-size="26" font-weight="700" fill="#ecf9e7">ESP32-S3</text>
+    <text x="621" y="587" font-size="14" fill="#aac39d">V4 controller</text>
+    <g fill="#152e3e" stroke="#76d7ed" stroke-width="2.5">
+      <circle cx="515" cy="600" r="22"/><circle cx="885" cy="600" r="22"/>
+    </g>
+    <g fill="#76d7ed" font-size="14" font-weight="700"><text x="506" y="605">EL</text><text x="875" y="605">ER</text></g>
+    <g fill="#213348" stroke="#728da3" stroke-width="2"><circle cx="640" cy="687" r="14"/><circle cx="700" cy="687" r="14"/><circle cx="760" cy="687" r="14"/></g>
+    <text x="649" y="725" font-size="14" fill="#a3b8c9">3 BUTTONS</text>
+    <g fill="#0f2232" stroke="#344f63">
+      <rect x="208" y="203" width="242" height="107" rx="13"/>
+      <rect x="960" y="203" width="242" height="107" rx="13"/>
+      <rect x="204" y="641" width="192" height="106" rx="13"/>
+      <rect x="1004" y="641" width="192" height="106" rx="13"/>
+    </g>
+    <text x="224" y="233" font-size="18" font-weight="700" fill="#bcadff">DIAGONAL PAIR</text>
+    <text x="224" y="261" font-size="15" fill="#aec0cf">Forward-left / forward-right</text>
+    <text x="224" y="286" font-size="15" fill="#aec0cf">Raw readings available on OLED</text>
+    <text x="977" y="233" font-size="18" font-weight="700" fill="#76d7ed">SIDE + FRONT</text>
+    <text x="977" y="261" font-size="15" fill="#aec0cf">L / F / R guide navigation</text>
+    <text x="977" y="286" font-size="15" fill="#aec0cf">Five channels are sampled</text>
+    <text x="222" y="670" font-size="17" font-weight="700" fill="#76d7ed">LEFT AS5600</text>
+    <text x="222" y="697" font-size="15" fill="#aec0cf">Wire · 0x36</text>
+    <text x="222" y="724" font-size="15" fill="#aec0cf">One driven wheel</text>
+    <path d="M396 670L455 631L495 610" fill="none" stroke="#76d7ed" stroke-width="2"/>
+    <text x="1022" y="670" font-size="17" font-weight="700" fill="#76d7ed">RIGHT AS5600</text>
+    <text x="1022" y="697" font-size="15" fill="#aec0cf">Wire1 · 0x36</text>
+    <text x="1022" y="724" font-size="15" fill="#aec0cf">One driven wheel</text>
+    <path d="M1004 670L945 631L905 610" fill="none" stroke="#76d7ed" stroke-width="2"/>
+    <rect x="45" y="805" width="1310" height="58" rx="12" fill="#162b3a"/>
+    <text x="66" y="830" font-size="16" font-weight="700" fill="#f0f6fa">CONFIGURED GEOMETRY</text>
+    <text x="355" y="830" font-size="16" fill="#c3d3df">Wheel Ø 35.5 mm · track 63 mm · maze cell 180 mm</text>
+    <text x="66" y="852" font-size="13" fill="#91acbf">Firmware defaults, not a measured V4 mechanical drawing. Set wheel diameter and track to match your chassis.</text>
+  </g>
+</svg>

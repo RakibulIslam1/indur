@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="650" viewBox="0 0 1400 650" role="img" aria-labelledby="title desc">
+  <title id="title">INDUR V4 hardware architecture</title>
+  <desc id="desc">Five infrared channels and two AS5600 encoders feed an ESP32-S3 controller. The controller drives an L293D bridge and two wheels, communicates with an OLED and three buttons, and stores maze data in EEPROM emulation.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="4" orient="auto"><path d="M0 0L8 4L0 8" fill="none" stroke="#9ab3c5" stroke-width="1.4"/></marker>
+  </defs>
+  <rect width="1400" height="650" rx="24" fill="#0b1826"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="46" y="50" font-size="26" font-weight="700" fill="#f1f6fa">INDUR V4 / HARDWARE ARCHITECTURE</text>
+    <text x="47" y="82" font-size="16" fill="#90aabe">Independent wheel feedback, a five-channel sensor front end, and a compact local interface.</text>
+    <g fill="none" stroke="#68869c" stroke-width="2" marker-end="url(#arrow)">
+      <path d="M335 206H425V254H521"/>
+      <path d="M335 372H425V315H521"/>
+      <path d="M880 260H1009"/>
+      <path d="M1170 291V334"/>
+      <path d="M700 390V460"/>
+      <path d="M880 339H962V511H1009"/>
+    </g>
+    <g>
+      <rect x="45" y="146" width="290" height="121" rx="17" fill="#22223a" stroke="#bcadff"/>
+      <text x="68" y="180" font-size="22" font-weight="700" fill="#dfd7ff">5 × INFRARED</text>
+      <text x="68" y="211" font-size="16" fill="#b6c5d2">L · LD · F · RD · R</text>
+      <text x="68" y="238" font-size="15" fill="#b6c5d2">Analog inputs / switched emitters</text>
+    </g>
+    <g>
+      <rect x="45" y="309" width="290" height="128" rx="17" fill="#132c3b" stroke="#76d7ed"/>
+      <text x="68" y="344" font-size="22" font-weight="700" fill="#b5ecf8">2 × AS5600</text>
+      <text x="68" y="375" font-size="16" fill="#b6c5d2">Left wheel: Wire · 0x36</text>
+      <text x="68" y="402" font-size="16" fill="#b6c5d2">Right wheel: Wire1 · 0x36</text>
+    </g>
+    <g>
+      <rect x="525" y="175" width="355" height="215" rx="21" fill="#20372d" stroke="#b7f76c" stroke-width="2"/>
+      <text x="570" y="226" font-size="35" font-weight="700" fill="#effbe7">ESP32-S3</text>
+      <path d="M552 245H853" stroke="#4b6952"/>
+      <text x="559" y="278" font-size="17" fill="#c4d8c0">Wheel odometry + motion control</text>
+      <text x="559" y="310" font-size="17" fill="#c4d8c0">Wall map + flood-fill navigation</text>
+      <text x="559" y="342" font-size="17" fill="#c4d8c0">INDUR V4 firmware</text>
+      <text x="559" y="371" font-size="14" fill="#9fb59b">Arduino / PlatformIO</text>
+    </g>
+    <g>
+      <rect x="1015" y="183" width="335" height="108" rx="17" fill="#28253e" stroke="#bcadff"/>
+      <text x="1039" y="221" font-size="23" font-weight="700" fill="#e1d9ff">L293D MOTOR BRIDGE</text>
+      <text x="1039" y="253" font-size="16" fill="#b9c8d6">Four direction/PWM inputs</text>
+      <text x="912" y="245" font-size="14" fill="#a5bbcc">PWM</text>
+    </g>
+    <g>
+      <rect x="1015" y="340" width="335" height="98" rx="17" fill="#162b39" stroke="#678da6"/>
+      <text x="1039" y="378" font-size="23" font-weight="700" fill="#e3eff6">2 × DRIVE WHEELS</text>
+      <text x="1039" y="407" font-size="16" fill="#b9c8d6">Independent left / right motor output</text>
+    </g>
+    <g>
+      <rect x="525" y="466" width="355" height="107" rx="17" fill="#162b39" stroke="#678da6"/>
+      <text x="549" y="503" font-size="22" font-weight="700" fill="#e3eff6">OLED + 3 BUTTONS</text>
+      <text x="549" y="535" font-size="16" fill="#b9c8d6">128 × 64 display / local setup and runs</text>
+      <text x="721" y="435" font-size="14" fill="#a5bbcc">I²C + GPIO</text>
+    </g>
+    <g>
+      <rect x="1015" y="472" width="335" height="101" rx="17" fill="#162b39" stroke="#678da6"/>
+      <text x="1039" y="508" font-size="22" font-weight="700" fill="#e3eff6">PERSISTENT MAP</text>
+      <text x="1039" y="538" font-size="16" fill="#b9c8d6">1,024-byte EEPROM emulation</text>
+    </g>
+    <text x="47" y="594" font-size="15" fill="#94acbf">Both I²C buses: 400 kHz. OLED shares Wire with the left encoder. Diagram shows functional connections.</text>
+    <text x="47" y="624" font-size="13" fill="#6e8ba0">See the wiring table for GPIO assignments; this diagram is not an electrical schematic.</text>
+  </g>
+</svg>

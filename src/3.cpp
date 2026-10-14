@@ -4,7 +4,7 @@ void console_poll() {
     while (Serial.available()) {
         char c = Serial.read();
         if (c == '?')
-            Serial.println("micromouse: p=status, z=reset distance, !=stop");
+            Serial.println("indur v4: p=status, z=reset distance, !=stop");
         else if (c == 'p')
             Serial.printf("L:%.1f R:%.1f Speed:%d Maze:13x13\n", sL, sR, pwm);
         else if (c == 'z')
