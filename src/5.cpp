@@ -1,5 +1,5 @@
-#include "config.h"
-#include "bitmap.h"
+#include "15.h"
+#include "16.h"
 
 void put_text(String t, byte x, byte y, byte col, byte sz) {
     oled.setTextSize(sz);

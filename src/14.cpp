@@ -1,4 +1,4 @@
-#include "config.h"
+#include "15.h"
 
 void settings_load() {
     for (byte i = 0; i < 5; i++) {

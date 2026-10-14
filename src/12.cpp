@@ -1,4 +1,4 @@
-#include "config.h"
+#include "15.h"
 
 void ir_read(int index) {
     for (int i = 0; i < NUM_SENSORS; i++)

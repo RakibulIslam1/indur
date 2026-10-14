@@ -1,5 +1,5 @@
-#include "config.h"
-#include "bitmap.h"
+#include "15.h"
+#include "16.h"
 Adafruit_SSD1306 oled(128, 64, &Wire, -1);
 short int dp[6] = {0};
 short int threshold[5] = {0};

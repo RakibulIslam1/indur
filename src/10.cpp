@@ -1,4 +1,4 @@
-#include "config.h"
+#include "15.h"
 
 int trim_left(int v) {
     return constrain((bias > 0) ? v - bias : v, 0, 255);

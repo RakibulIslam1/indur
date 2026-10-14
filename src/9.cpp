@@ -1,5 +1,5 @@
-#include "config.h"
-#include "bitmap.h"
+#include "15.h"
+#include "16.h"
 
 byte menu() {
     byte temp = 0, ind = 1;

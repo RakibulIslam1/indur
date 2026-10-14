@@ -1,4 +1,4 @@
-#include "config.h"
+#include "15.h"
 
 static inline int opposed(int dir) {
     return (dir + 2) & 3;

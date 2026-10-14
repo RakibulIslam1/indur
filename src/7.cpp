@@ -1,4 +1,4 @@
-#include "config.h"
+#include "15.h"
 
 void follow() {
     err1 = 0;
