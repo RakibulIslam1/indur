@@ -15,7 +15,7 @@
 
 **Indur is a micromouse project built around infrared wall sensing, magnetic wheel feedback, and differential drive. This repository releases the firmware for Indur V4.** An ESP32-S3 brings the sensor front end, wheel odometry, maze navigation, OLED interface, and persistent storage together in a compact autonomous robot.
 
-The V1 and V3 photographs below document earlier robots in the Indur line. V2 and V4 photographs will be added later. The V4 diagrams describe the released firmware's hardware arrangement; they are functional illustrations rather than photographs or dimensional CAD drawings.
+The gallery below documents all four versions of Indur, from V1 to the current V4 robot. The V4 diagrams describe the released firmware's hardware arrangement; they are functional illustrations rather than dimensional CAD drawings.
 
 <p align="center">
   <a href="#the-indur-line">Versions &amp; gallery</a> ·
@@ -37,9 +37,21 @@ The V1 and V3 photographs below document earlier robots in the Indur line. V2 an
       <p>Earlier prototype · workbench view</p>
     </td>
     <td width="50%" align="center">
+      <h3>Indur V2</h3>
+      <img src="images/v2.jpeg" alt="Indur V2 prototype showing its wheels, battery, and OLED display" width="640">
+      <p>Second version · assembled prototype</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">
       <h3>Indur V3</h3>
       <img src="images/v3-.jpeg" alt="Indur V3 later prototype powered on the floor" width="640">
       <p>Later prototype · assembled robot</p>
+    </td>
+    <td width="50%" align="center">
+      <h3>Indur V4</h3>
+      <img src="images/v4.jpeg" alt="Indur V4 robot with its blue outer frame, top buttons, and OLED display" width="640">
+      <p><strong>Current version · this open source firmware</strong></p>
     </td>
   </tr>
 </table>
@@ -65,9 +77,9 @@ The V1 and V3 photographs below document earlier robots in the Indur line. V2 an
 | Version | Gallery | Firmware in this repository |
 | --- | --- | --- |
 | **V1** | Two photographs available | Historical reference |
-| **V2** | Photographs to follow | Historical reference |
+| **V2** | One photograph available | Historical reference |
 | **V3** | Two photographs available | Historical reference |
-| **V4** | Photographs to follow; engineering diagrams below | **Current open source release** |
+| **V4** | One photograph and engineering diagrams available | **Current open source release** |
 
 ## Inside Indur V4
 
@@ -216,7 +228,7 @@ The firmware is built for the ESP32-S3 target before publication. Native checks 
 
 Physical turn accuracy, sensor calibration, battery behavior, and maze times require testing on the assembled robot. The diagrams and configured dimensions do not substitute for those measurements, and no competition ranking or timing result is claimed.
 
-For an issue or pull request, include the board, motor driver, wheel dimensions, settings, observed behavior, and build output. Keep changes compatible with the published hardware profile. V2 and V4 photographs can be added to the gallery as those images become available.
+For an issue or pull request, include the board, motor driver, wheel dimensions, settings, observed behavior, and build output. Keep changes compatible with the published hardware profile.
 
 ## License
 

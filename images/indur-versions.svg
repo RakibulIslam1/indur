@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1400" height="245" viewBox="0 0 1400 245" role="img" aria-labelledby="title desc">
   <title id="title">The INDUR versions: V1, V2, V3, and V4</title>
-  <desc id="desc">V1 and V3 have photo galleries. V2 photos are pending. V4 is the firmware released in this repository, with photos to follow.</desc>
+  <desc id="desc">All four Indur versions have photographs in the gallery. V1 and V3 have two photos each; V2 and V4 have one each. V4 is the firmware released in this repository.</desc>
   <rect width="1400" height="245" rx="20" fill="#0c1927"/>
   <g font-family="Arial, Helvetica, sans-serif">
     <text x="34" y="38" font-size="15" letter-spacing="3" fill="#91a9bc">THE INDUR LINE / V1 TO V4</text>
@@ -12,10 +12,10 @@
       <text x="22" y="121" font-size="14" fill="#a8bac9">Two photographs in the gallery</text>
     </g>
     <g transform="translate(374 65)">
-      <rect width="310" height="150" rx="16" fill="#111f2d" stroke="#354c60" stroke-dasharray="5 6"/>
-      <text x="22" y="54" font-size="38" font-weight="700" fill="#8298ab">V2</text>
-      <text x="22" y="85" font-size="16" fill="#b0becb">PHOTO TO FOLLOW</text>
-      <text x="22" y="121" font-size="14" fill="#8298ab">Reserved for the V2 gallery</text>
+      <rect width="310" height="150" rx="16" fill="#17293a" stroke="#354c60"/>
+      <text x="22" y="54" font-size="38" font-weight="700" fill="#f4f7fa">V2</text>
+      <text x="22" y="85" font-size="16" fill="#bcadff">SECOND PROTOTYPE</text>
+      <text x="22" y="121" font-size="14" fill="#a8bac9">One photograph in the gallery</text>
     </g>
     <g transform="translate(718 65)">
       <rect width="310" height="150" rx="16" fill="#17293a" stroke="#354c60"/>
@@ -27,7 +27,7 @@
       <rect width="310" height="150" rx="16" fill="#193227" stroke="#b7f76c" stroke-width="2"/>
       <text x="22" y="54" font-size="38" font-weight="700" fill="#f4f7fa">V4</text>
       <text x="22" y="85" font-size="16" fill="#b7f76c">THIS FIRMWARE RELEASE</text>
-      <text x="22" y="121" font-size="14" fill="#c0d5c3">Open source · photographs to follow</text>
+      <text x="22" y="121" font-size="14" fill="#c0d5c3">Open source · photograph in gallery</text>
     </g>
   </g>
 </svg>
